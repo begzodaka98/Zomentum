@@ -1,0 +1,241 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.nav{
+    position: fixed;
+    z-index: 10;
+    background-color: white !important;
+    height: 80px !important;
+}
+.liniya{
+    position: absolute;
+    z-index: -1;   
+    transform: rotate(-2deg);
+    top: 0px;
+    left: -20px;
+    background-color: #2F70FE;
+    width: 110%;
+    height: 566px; 
+}
+
+.liniya > * {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 360px
+}
+
+.cvet{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.textf{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: absolute;;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.razmer{
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+
+.knopka{
+    display: flex;
+    margin: 0px auto;
+    position: relative;
+    top: 350px;
+    
+}
+ .contentt{
+     position: absolute;
+     z-index: -2;
+     margin-top: 440px;
+     background-color: #f1f7f1;
+     width: 99%;
+     height: 592px;
+     
+ }
+
+ .contentt > *{
+     display: flex;
+     margin-top: 250px;
+     justify-content: center;
+ }
+ 
+ .textl{
+     margin-top: -100px;
+     text-align:center;
+     width: 100%;
+     height: 100%;
+     font-size: 40px;
+     
+ }
+
+ .frame{
+     position: absolute;
+     width: 50%;
+     
+     
+ }
+
+ .treug{
+     display: flex;
+     justify-content: space-between;
+     align-items; 
+     width: 100%;
+     height: 100%;
+    
+ }
+
+ .treug1{
+  
+ }
+ .contenta{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     width: 80%;
+     margin: 0 auto;
+     margin-top: 1050px;
+     height: 100vh;
+     
+ }
+
+ .space{
+     width: 80%;
+     text-align: center;
+ }
+ 
+ .space > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+    text-align: left;
+     width: 100%; 
+ }
+
+ .space>div>img{
+     width: 400px;
+ }
+ .bigtext{
+     font-weight: 700;
+     font-size: 28px;
+ }
+ .fotter{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     margin-top: 1050px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    
+}
+
+.fotter > div{
+    margin-left: 10px;
+}
+.fotter>div>*{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot{
+    text-align: left;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.foot> div > h1> * {
+    color: white;
+    text-decoration: none;
+}
+
+.foot> div > * {
+    color: white;
+    text-decoration: none;
+}
+
+.fott{
+    margin-top: 300px;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aaa{
+    margin-right: 40px;
+}
+
+
+
+ @media(max-width:960px){
+     .frame{
+    width: 90%;
+     }
+     .knopka{
+         margin-top: 80px;
+     }
+     .textf{
+         color: black;
+         font-weight: 700;
+     }
+     .partner > img{
+        width: 150px;
+        margin-top: 100px;
+     }
+     .contentt{
+        position: absolute;
+        z-index: -2;
+        margin-top: 380px;
+    }
+    .contenta{
+        height: 100vh;
+    }
+    .space > div{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotter{
+        margin-top: 1550px;
+        height: 1000px;
+    }
+    .space>div>img{
+            width: 300px;
+ }
+ .fotter >*{
+     flex-direction: column;
+     margin-top: 0px;
+     
+ }
+
+ .foot > div{
+     margin: 0 auto;
+     text-align: center;
+    margin-top: 0px;
+ }
+ .fott{
+     margin-top: 955px;  
+     text-align: center;   
+ }
+ }
