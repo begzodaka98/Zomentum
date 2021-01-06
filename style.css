@@ -188,11 +188,17 @@ body{
 
 
  @media(max-width:960px){
+      body{
+         overflow-x: hidden;
+     }
      .frame{
     width: 90%;
      }
      .knopka{
          margin-top: 80px;
+     }
+      .liniya{
+         width: 110%;
      }
      .textf{
          color: black;
